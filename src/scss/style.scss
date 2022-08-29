@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@400;900&display=swap');
+@import 'welcome_screen';
+@import 'variables';
+@import 'timeline';
+@import 'navbar';
+@import 'footer';
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    background: $primary;
+    color: $secondary;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    padding:5px;
+}
+p{
+    padding: 25px;
+    font-size: 1.15em;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    float: left;
+    z-index: 4;
+    width: 100%;
+    padding: 15px;
+}
+.scrollAnimate{
+    visibility: hidden;
+}
+.doggo{
+    @include parallax("/img/doggo2.jpg");
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+.content svg{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.content svg:first-child{
+    bottom: unset;
+    top:0;
+}
+.people{
+    @include parallax("/img/people2.jpg");
+    height:100vh;
+    position: relative;
+    z-index: 0;
+}
+.carousel .slide .legend{
+    background: $secondary !important;
+    font-size: 1.3em !important;
+}
+@media screen  and (max-width:900px){
+.carousel .slide .legend{
+    opacity: 1 !important;
+}
+}
+.carousel .control-dots{
+    margin: 0 !important;
+}
+.carousel .control-dots .dot{
+    background: $darker !important;
+    width: 20px !important;
+    height: 20px !important;
+
+}
+.carousel .details{
+    height:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    user-select: none;
+}
+.carousel .control-dots .selected{
+    background: $accent2 !important;
+}
+svg{
+    width: 100%;
+}
+.logo{
+    width: 200px !important;
+    height: 200px;
+}
+h1{
+    font-size: calc(20px + 1vw);
+}
+h2{
+    font-size: calc(17px + 0.5vw);
+}
+h3{
+    font-size: calc(13px + 0.65vw);
+}
+h4{
+    font-size: calc(11px + 0.5vw);
+}
+#about {
+    text-align: center;
+}

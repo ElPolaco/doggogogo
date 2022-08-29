@@ -1,0 +1,74 @@
+@import 'variables';
+nav{
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 60px;
+    background: $secondary;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: right;
+    gap:20px;
+    width: 100%;
+}
+nav ul li:last-child{
+    margin-right: 20px;
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li a{
+    font-size: 1.25em;
+    color:$primary;
+    font-family: 'Roboto';
+    line-height: 60px;
+    text-transform: uppercase;
+    transition: 0.7s;
+    display: block;
+}
+nav ul li:hover a{
+    color:$accent;
+    animation:flipInX 1s;
+
+}
+nav button{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav button{
+        display: block;
+        background: $secondary;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 2em;
+        color:$primary;
+        float:right;
+    }
+    nav button:hover{
+        color:$accent;
+    }
+    nav ul{
+        display: none;
+        float:left;
+    }
+    nav ul li:last-child{
+        margin: 0;
+    }
+    nav ul li a:hover{
+        color:$accent;
+        animation: none;
+    }
+    
+}

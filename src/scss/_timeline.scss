@@ -1,0 +1,71 @@
+@import 'variables';
+.timeline{
+    overflow: hidden;
+    display: flex;
+}
+.timeline div{
+    flex: 1;
+}
+.timeline .separator{
+    position: relative;
+}
+.timeline .separator::after{
+    content:'';
+    position:absolute ;
+    height: 100%;
+    background-color:$secondary;
+    width: 20px;
+    top:0;
+    left:50%;
+    transform: translate(-50%);
+}
+.timeline .separator::before{
+    content: '';
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 2;
+    border-color:$accent2; 
+    border-radius: 100%;
+    border-width: 20px;
+    border-style: solid;
+}
+.timeline .content-right{
+    position: relative;
+    text-align: left;
+    transform: translate(-196%);
+
+}
+.timeline [class*="content-"]{
+    background: $secondary;
+    color:$primary;
+    z-index: 4;
+    border-radius: 5px;
+    left:50%;
+}
+.timeline .content-right::before{
+    content: '';
+    position: absolute;
+    border-color: transparent $primary transparent transparent;
+    border-style: solid;
+    border-width: 20px;
+    left:-40px;
+    z-index:5;
+}
+.timeline .content-left{
+    position: relative;
+    text-align: right ;
+    transform: translate(-104%);
+}
+.timeline .content-left p{
+    text-align: right;
+}
+.timeline .content-left::before{
+    content: '';
+    position: absolute;
+    border-color: transparent transparent transparent $primary;
+    border-style: solid;
+    border-width: 20px;
+    left:100%;
+    z-index:5;
+}
