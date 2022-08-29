@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec2b1cb0.css",
+    "main.js": "/static/js/main.312d2fce.js",
+    "static/js/787.72db6fcc.chunk.js": "/static/js/787.72db6fcc.chunk.js",
+    "static/media/people2.jpg": "/static/media/people2.35654c6913a40fd42ed6.jpg",
+    "static/media/hero2.jpg": "/static/media/hero2.a515eeab505dcbed877d.jpg",
+    "static/media/doggo2.jpg": "/static/media/doggo2.9ed0d39af2c06decd641.jpg",
+    "static/media/mysql.svg": "/static/media/mysql.826da78390045d32b2c71c5b8a748383.svg",
+    "static/media/sass.svg": "/static/media/sass.9c4ab18db1c98dc6a48647e641711c6e.svg",
+    "static/media/netcore.svg": "/static/media/netcore.a62fcf996ea2935f8ccbe026b73e7c06.svg",
+    "index.html": "/index.html",
+    "static/media/react.svg": "/static/media/react.fff4fd514ba20a042d2cd63734178e6a.svg",
+    "main.ec2b1cb0.css.map": "/static/css/main.ec2b1cb0.css.map",
+    "main.312d2fce.js.map": "/static/js/main.312d2fce.js.map",
+    "787.72db6fcc.chunk.js.map": "/static/js/787.72db6fcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec2b1cb0.css",
+    "static/js/main.312d2fce.js"
+  ]
+}
