@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/doggogogo/static/css/main.09b05413.css",
-    "main.js": "/doggogogo/static/js/main.3245a3e0.js",
+    "main.js": "/doggogogo/static/js/main.9bb8efc7.js",
     "static/js/787.72db6fcc.chunk.js": "/doggogogo/static/js/787.72db6fcc.chunk.js",
     "static/media/people2.jpg": "/doggogogo/static/media/people2.35654c6913a40fd42ed6.jpg",
     "static/media/hero2.jpg": "/doggogogo/static/media/hero2.a515eeab505dcbed877d.jpg",
     "static/media/doggo2.jpg": "/doggogogo/static/media/doggo2.9ed0d39af2c06decd641.jpg",
+    "static/media/mssql.svg": "/doggogogo/static/media/mssql.18f84630d77ee59a93814e1aa3bc9770.svg",
     "static/media/mysql.svg": "/doggogogo/static/media/mysql.826da78390045d32b2c71c5b8a748383.svg",
     "static/media/sass.svg": "/doggogogo/static/media/sass.9c4ab18db1c98dc6a48647e641711c6e.svg",
     "static/media/netcore.svg": "/doggogogo/static/media/netcore.a62fcf996ea2935f8ccbe026b73e7c06.svg",
     "index.html": "/doggogogo/index.html",
     "static/media/react.svg": "/doggogogo/static/media/react.fff4fd514ba20a042d2cd63734178e6a.svg",
     "main.09b05413.css.map": "/doggogogo/static/css/main.09b05413.css.map",
-    "main.3245a3e0.js.map": "/doggogogo/static/js/main.3245a3e0.js.map",
+    "main.9bb8efc7.js.map": "/doggogogo/static/js/main.9bb8efc7.js.map",
     "787.72db6fcc.chunk.js.map": "/doggogogo/static/js/787.72db6fcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09b05413.css",
-    "static/js/main.3245a3e0.js"
+    "static/js/main.9bb8efc7.js"
   ]
 }
